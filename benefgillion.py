@@ -1,0 +1,5 @@
+cella = int(input("Prix cella ? "))
+gillion = int(input("Prix gillion ? "))
+benef = round(cella*7.5 - gillion -500)
+print (f"Le benef est de {benef} par gillion et {benef}k par stack" )
+input("Appuier sur entrer pour quitter ! \n ")
